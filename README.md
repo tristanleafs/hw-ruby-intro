@@ -15,6 +15,14 @@ After completing this assignment, you will know how to:
 * Run individual tests or suites of tests using the RSpec unit testing tool
 * Understand the basic syntax of RSpec unit tests
  
+Docker Environment Setup
+--------
+To get started, you have several options. Use your own machine, use a VPN, or install the environment through Docker. Docker is highly encouraged for use through the full course:
+
+[https://hub.docker.com/r/tghastings/cloud9-esaas](https://hub.docker.com/r/tghastings/cloud9-esaas)
+**Homework instructions assume that you are using Docker.**
+
+
 Overview
 --------
 
@@ -46,7 +54,7 @@ run bundle install like so:
 ```sh
 $ gem install bundler
 $ cd hw-ruby-intro
-$ bundle
+$ bundle install
 ```
 
 When the above completes successfully you'll have RSpec installed and can
