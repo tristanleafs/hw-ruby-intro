@@ -341,12 +341,9 @@ To submit your code and test writeup:
 
 1. **Push your code to github.** (This is good practice for your later assignments when you’re working with your team too!)  Follow these instructions carefully!
 
-	`cd /root/environment/homework/hw-ruby-intro`
-
-`rm -rf .git `//Note that if this folder is not removed, git will try to create it as a submodule, which is not what we want.  `Git init `will set up the structure properly so all files are visible
-
-
 ```
+cd /root/environment/homework/hw-ruby-intro
+rm -rf .git
 cd /root/environment/homework/hw-ruby-more
 rm -rf .git
 cd /root/environment/homework/
