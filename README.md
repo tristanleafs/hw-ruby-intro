@@ -38,9 +38,11 @@ This will allow you to setup a full ruby and rails environment in a cloud settin
 
 ------------------------------------------------------------------------------------------------------------
 
-Make a homework directory: `mkdir homework`
+Clone your GitHub repo into a homework directory by running: `git clone https://github.com/UCCS-CS3300/YOURUCCSUSERNAME_GOES_HERE.git homework`
 
-Go to your` homework `directory (if not there already), then clone the skeleton code at [https://github.com/UCCSCS3300/hw-ruby-intro](https://github.com/UCCSCS3300/hw-ruby-intro)  to your Cloud9 docker container. To do this, type:
+If you have done this correctly you should now see a `homework` directory under `/root/environment/homework/`.
+
+Go to your `homework` directory (if not there already), then clone the skeleton code at [https://github.com/UCCSCS3300/hw-ruby-intro](https://github.com/UCCSCS3300/hw-ruby-intro)  to your Cloud9 docker container. To do this, type:
 
 ```
 git clone https://github.com/UCCSCS3300/hw-ruby-intro.git 
@@ -345,14 +347,12 @@ To submit your code and test writeup:
 ```
 cd /root/environment/homework/hw-ruby-more
 rm -rf .git
-cd ..
+cd /root/environment/homework/
 ```
 
-
-`git init `//Sets up the git repo on your machine in the projects directory
+Make sure you are in `/root/environment/homework/` and then run:
 
 `git add * `//Adds all files and folders in the current directory (projects)<code> \
-	git remote add origin [https://github.com/UCCS-CS3300/YOURUCCSUSERNAME.git](https://github.com/UCCS-CS3300/instructor_test_account.git) </code>(for example: <code>[https://github.com/UCCS-CS3300/](https://github.com/UCCS-CS3300/instructor_test_account.git)</code>kwalcott.git) //Links the repository on your box to your class account’s repo *
 
 `git status `//Sanity check- make sure ALL of the files you modified are listed AND staged for commit, not just folders.
 
