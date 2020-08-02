@@ -33,6 +33,8 @@ Alternative: There are additional instructions here depending on how you want to
 
 This will allow you to setup a full ruby and rails environment in a cloud setting, reducing the needs on your own machine and giving everyone the same starting point.  Make sure to follow all instructions including those associated with setting up a link through SSH with github.  The account is free and will link to your CS3300 class github account.  
 
+![IMAGE](https://gfycat.com/thoroughunrulyblacknorwegianelkhound.gif)
+
 
 ## PART 1: Ruby Basics
 
