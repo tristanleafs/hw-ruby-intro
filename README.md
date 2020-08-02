@@ -33,9 +33,6 @@ Alternative: There are additional instructions here depending on how you want to
 
 This will allow you to setup a full ruby and rails environment in a cloud setting, reducing the needs on your own machine and giving everyone the same starting point.  Make sure to follow all instructions including those associated with setting up a link through SSH with github.  The account is free and will link to your CS3300 class github account.  
 
-[![IMAGE](https://media.giphy.com/media/QW460yejWnYkBr3qYN/giphy.gif)](https://gfycat.com/thoroughunrulyblacknorwegianelkhound.gif)
-
-
 ## PART 1: Ruby Basics
 
 ------------------------------------------------------------------------------------------------------------
@@ -53,6 +50,8 @@ git clone https://github.com/UCCSCS3300/hw-ruby-intro.git
 ```
 
 in the terminal of Cloud9 running inside of the docker container.  This creates a folder called `hw-ruby-intro`, which contains a skeleton for part 1 of your assignment, described below.
+
+[![IMAGE](https://media.giphy.com/media/QW460yejWnYkBr3qYN/giphy.gif)](https://gfycat.com/thoroughunrulyblacknorwegianelkhound.gif)
 
 
 ## **Overview**
