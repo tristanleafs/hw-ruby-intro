@@ -39,7 +39,9 @@ This will allow you to setup a full ruby and rails environment in a cloud settin
 
 Clone your GitHub repo into a homework directory by running: 
 
-`git clone https://github.com/UCCS-CS3300/YOURUCCSUSERNAME_GOES_HERE.git homework`
+```
+git clone https://github.com/UCCS-CS3300/YOURUCCSUSERNAME_GOES_HERE.git homework
+```
 
 If you have done this correctly you should now see a `homework` directory under `/root/environment/homework/`.
 
