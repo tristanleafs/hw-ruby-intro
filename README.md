@@ -26,12 +26,8 @@ To get started, you have several options. Use your own machine, use a VPN, or in
  
 [https://hub.docker.com/r/tghastings/cloud9-esaas](https://hub.docker.com/r/tghastings/cloud9-esaas) 
 
-
 **Homework instructions assume that you are using Docker.**
 
-Alternative: There are additional instructions here depending on how you want to start along with a few reasons to guide your choice: http://www.saasbook.info/bookware-vm-instructions
-
-This will allow you to setup a full ruby and rails environment in a cloud setting, reducing the needs on your own machine and giving everyone the same starting point.  Make sure to follow all instructions including those associated with setting up a link through SSH with github.  The account is free and will link to your CS3300 class github account.  
 
 ## PART 1: Ruby Basics
 
