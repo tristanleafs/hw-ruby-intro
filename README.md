@@ -21,12 +21,10 @@ After completing this assignment, you will know how to:
 
 ## **Setup (about 15 minutes)**
 
-To get started, you have several options. Use your own machine, use a VPN, or install the environment through Docker. Docker is highly encouraged for use through the full course: 
-
+We use Docker for this course. This ensures that everyone has the same version of dependencies we have created a Docker image that everyone should use. This becomes important when we move to the group assignment. Follow the instructions at the link provided to get started.
  
 [https://hub.docker.com/r/tghastings/cloud9-esaas](https://hub.docker.com/r/tghastings/cloud9-esaas) 
 
-**Homework instructions assume that you are using Docker.**
 
 
 ## PART 1: Ruby Basics
