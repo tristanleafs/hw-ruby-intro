@@ -350,9 +350,10 @@ rm -rf .git
 cd /root/environment/homework/hw-ruby-more
 rm -rf .git
 cd /root/environment/homework/
+curl -L https://git.io/JJAly > .travis.yml
 ```
 
-Make sure you are in `/root/environment/homework/` and then run:
+Make sure you are in `/root/environment/homework/` and you can verify by running `pwd` then run:
 
 `git add * `//Adds all files and folders in the current directory (projects)<code> \
 
