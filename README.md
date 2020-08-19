@@ -39,7 +39,13 @@ git clone https://github.com/UCCS-CS3300/YOURUCCSUSERNAME_GOES_HERE.git homework
 
 If you have done this correctly you should now see a `homework` directory under `/root/environment/homework/`.
 
-Go to your `homework` directory (if not there already), then clone the skeleton code at [https://github.com/UCCSCS3300/hw-ruby-intro](https://github.com/UCCSCS3300/hw-ruby-intro)  to your Cloud9 docker container. To do this, type:
+Go to your `homework` directory (if not there already)
+
+```
+cd homework
+```
+
+then clone the skeleton code at [https://github.com/UCCSCS3300/hw-ruby-intro](https://github.com/UCCSCS3300/hw-ruby-intro)  to your Cloud9 docker container. To do this, run:
 
 ```
 git clone https://github.com/UCCSCS3300/hw-ruby-intro.git 
