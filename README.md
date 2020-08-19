@@ -1,6 +1,6 @@
 # **Ruby Intro**
 
-This 2 part homework gives some basic practice in Ruby as well as getting you accustomed to making testing a regular part of your workflow.
+This homework is made up of two sections comprised of multiple parts and gives some basic practice in Ruby as well as getting you accustomed to making testing a regular part of your workflow.
 
 GET STARTED EARLY it’s a **LONG **assignment. Ask lots of questions along the way, and don’t forget about office hours (posted on the syllabus). Discord will really help you for fast responses! We will be working through this material in lecture, but you can get started by reading Chapter 3 and trying out some of the tutorials listed at the end of this assignment. 
 
@@ -27,7 +27,7 @@ We use Docker for this course. This ensures that everyone has the same version o
 
 
 
-## PART 1: Ruby Basics
+## SECTION 1: RUBY BASICS
 
 ------------------------------------------------------------------------------------------------------------
 
@@ -126,7 +126,7 @@ You can check your progress on the all the above by running rspec ./spec/part3_s
 *   Try pairing using the[ one-undermanship pair programming style](http://www.agileventures.org/remote-pair-programming/pair-programming-protocols)
 
 
-## **PART 2: BEYOND THE BASICS**
+## **SECTION 2: BEYOND THE BASICS**
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -135,7 +135,7 @@ For this set of code, another skeleton is provided.  To get the skeleton code:
 
 ```
 cd /root/environment/homework 
-git clone https://github.com/kristen-justice/hw-ruby-more.git
+git clone https://github.com/UCCSCS3300/hw-ruby-more.git
 cd hw-ruby-more
 ```
 
