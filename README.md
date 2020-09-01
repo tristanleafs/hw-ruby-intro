@@ -343,7 +343,7 @@ To submit your code and test writeup:
 
 
 
-1. **Push your code to github.** (This is good practice for your later assignments when you’re working with your team too!)  Follow these instructions carefully!
+1. **Push your code to github and include the TravisCI file.** (This is good practice for your later assignments when you’re working with your team too!)  Follow these instructions carefully!
 
 ```
 cd /root/environment/homework/hw-ruby-intro
