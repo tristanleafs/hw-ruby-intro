@@ -74,6 +74,7 @@ To ensure you have the rspec gem installed, you need bundler and can then run bu
 ```
 $ cd /root/environment/homework/hw-ruby-intro
 $ bundle install
+$ rspec spec/ or rspec spec/part#_spec.rb 
 ```
 
 
