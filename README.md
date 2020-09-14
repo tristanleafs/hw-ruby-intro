@@ -356,7 +356,7 @@ curl -L https://git.io/JJAly > .travis.yml
 
 Make sure you are in `/root/environment/homework/` and you can verify by running `pwd` then run:
 
-`git add * `//Adds all files and folders in the current directory (projects)<code> \
+`git add -A `//Adds all files and folders in the current directory (projects)<code> \
 
 `git status `//Sanity check- make sure ALL of the files you modified are listed AND staged for commit, not just folders.
 
