@@ -381,16 +381,15 @@ _Note: Github will be covered much more later in class- for now, this is all you
 
 2. Submit your code on Canvas
 
-	`cd /root/environment/homework/hw-ruby-intro`
+	```
+	cd /root/environment/homework/hw-ruby-intro`
 
-	`tar -czf yourUCCSname_hw1_part1.tar.gz *`
-
-
-```
+	tar -czf yourUCCSname_hw1_part1.tar.gz *
+	
 	cd ../hw-ruby-more
-```
 
-	`tar -czf yourUCCSname_hw1_part2.tar.gz *`
+	tar -czf yourUCCSname_hw1_part2.tar.gz *
+	```
 	
 You can now `right click` and download the files from Cloud9. 
 
