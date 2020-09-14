@@ -391,6 +391,8 @@ _Note: Github will be covered much more later in class- for now, this is all you
 ```
 
 	`tar -czf yourUCCSname_hw1_part2.tar.gz *`
+	
+You can now `right click` and download the files from Cloud9. 
 
 In Canvas, submit the two` tar.gz `files<code> <strong>AND</strong></code> the text/doc file wherein you describe the purpose of each added rspec test from Part 2. <strong>You should submit 3 files in total with your assignment on Canvas.  </strong>
 
