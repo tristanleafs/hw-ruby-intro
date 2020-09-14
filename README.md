@@ -48,7 +48,7 @@ cd homework
 then clone the skeleton code at [https://github.com/UCCSCS3300/hw-ruby-intro](https://github.com/UCCSCS3300/hw-ruby-intro)  to your Cloud9 docker container. To do this, run:
 
 ```
-git clone https://github.com/UCCSCS3300/hw-ruby-intro.git 
+git clone https://github.com/UCCSCS3300/hw-ruby-intro.git && rm -rf hw-ruby-intro/.git
 ```
 
 in the terminal of Cloud9 running inside of the docker container.  This creates a folder called `hw-ruby-intro`, which contains a skeleton for part 1 of your assignment, described below.
@@ -136,7 +136,7 @@ For this set of code, another skeleton is provided.  To get the skeleton code:
 
 ```
 cd /root/environment/homework 
-git clone https://github.com/UCCSCS3300/hw-ruby-more.git
+git clone https://github.com/UCCSCS3300/hw-ruby-more.git && rm -rf hw-ruby-more/.git
 cd hw-ruby-more
 ```
 
