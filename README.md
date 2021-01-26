@@ -52,7 +52,7 @@ git clone https://github.com/UCCSCS3300/hw-ruby-intro.git && rm -rf hw-ruby-intr
 in the terminal of Cloud9 running inside of the docker container.  This creates a folder called `hw-ruby-intro`, which contains a skeleton for part 1 of your assignment, described below.
 
 <!---[![IMAGE](https://media.giphy.com/media/QW460yejWnYkBr3qYN/giphy.gif)](https://gfycat.com/thoroughunrulyblacknorwegianelkhound.gif)-->
-
+[![IMAGE](https://github.com/UCCS-CS4300-5300/kwalcott-public/gettingStarted.png)]
 
 
 ## **Overview**
