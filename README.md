@@ -352,8 +352,9 @@ rm -rf .git
 cd /root/environment/homework/
 curl -L https://git.io/JJAly > .travis.yml
 ```
+Note that these two .git folders must be removed because they contain .git associations that are no longer needed (linking you to https://github.com/UCCSCS3300/ repos). Your private git repo is linked as a remote url in the homework folder's .git folder, which you can see by running `git remote -v` while in the homework folder. If you were to leave the .git folders in hw-ruby-intro or hw-ruby-more, the folders would be turned into submodules, which cannot be opened or viewed. 
 
-Make sure you are in `/root/environment/homework/` and you can verify by running `pwd` then run:
+Make sure you are in `/root/environment/homework/` - you can verify by running `pwd` - then run:
 
 `git add -A `//Adds all files and folders in the current directory (projects)<code> \
 
@@ -362,7 +363,7 @@ Make sure you are in `/root/environment/homework/` and you can verify by running
 `git commit -m "Committing HW1" `//Adds documentation for your code commit **` \
 	git push -u origin master `//Pushes your code to the origin (defined above to your class account’s link) to the master branch (branching will be discussed in class later)
 
-
+Note that if you simply do `git commit` the vi editor will open. In the editor, there is room at the top for a commit message. You must enter a message. Below the message, you will see all files staged for commit, which matches what you see when you run `git status`. To exit save your message and exit vi, type `esc` then `:wq`
 
 *   Make sure you use the correct address! DO NOT PUSH TO YOUR PERSONAL GITHUB ACCOUNT!!!!  
 *   When it asks for a username and password, that is your GITHUB username and password, not UCCS.  Read error messages, and double check that **all** of your files show up and are openable on the github website!
