@@ -32,7 +32,7 @@ To get started, openb a terminal. In the upper left-hand corner, click on the ha
 Clone your GitHub repo into a homework directory by running: 
 
 ```
-git clone https://github.com/UCCS-CS3300/YOURUCCSUSERNAME_GOES_HERE.git homework
+git clone https://github.com/UCCS-CS4300-5300/YOURUCCSUSERNAME_GOES_HERE.git homework
 ```
 
 If you have done this correctly you should now see a `homework` directory under `/root/environment/homework/`.
@@ -51,7 +51,8 @@ git clone https://github.com/UCCSCS3300/hw-ruby-intro.git && rm -rf hw-ruby-intr
 
 in the terminal of Cloud9 running inside of the docker container.  This creates a folder called `hw-ruby-intro`, which contains a skeleton for part 1 of your assignment, described below.
 
-[![IMAGE](https://media.giphy.com/media/QW460yejWnYkBr3qYN/giphy.gif)](https://gfycat.com/thoroughunrulyblacknorwegianelkhound.gif)
+<!---[![IMAGE](https://media.giphy.com/media/QW460yejWnYkBr3qYN/giphy.gif)](https://gfycat.com/thoroughunrulyblacknorwegianelkhound.gif)-->
+
 
 
 ## **Overview**
@@ -367,7 +368,7 @@ Make sure you are in `/root/environment/homework/` and you can verify by running
 *   When it asks for a username and password, that is your GITHUB username and password, not UCCS.  Read error messages, and double check that **all** of your files show up and are openable on the github website!
 *   Make sure your files are actually being added!  If files are missing, do a `git add `on the missing folders or files and then commit and push again. `git status `will also show you changes that are staged for commit. 
 
-On the github website (<code>[https://github.com/UCCS-CS3300/](https://github.com/UCCS-CS3300-Spring2017/instructor_test_account.git)</code>YOURUCCSUSERNAME), you should see two folders: <code>hw-ruby-intro</code> and <code>hw-ruby-more, </code>where each can be opened and contain your modified code.
+On the github website (<code>[https://github.com/UCCS-CS300/](https://github.com/UCCS-CS3300-Spring2017/instructor_test_account.git)</code>YOURUCCSUSERNAME), you should see two folders: <code>hw-ruby-intro</code> and <code>hw-ruby-more, </code>where each can be opened and contain your modified code.
 
 _Note: Github will be covered much more later in class- for now, this is all you need. Understand what each command means and read all output!_
 
