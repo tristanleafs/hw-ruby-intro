@@ -33,13 +33,13 @@ As you edit your work, commit your code to your repository often!! After you hav
 
 To commit and push:
 
-`git status` \\Check what files have changed AND are staged for commit. If files are missing that you want staged for commit.
+`git status` \\\Check what files have changed AND are staged for commit. If files are missing that you want staged for commit.
 
 If files need to be added, `git add fileOrFolderName`. Run `git status` to double check. 
 
-`git commit -m "added else condition for if <0"` \\Give a descriptive message for your commit.
+`git commit -m "added else condition for if <0"` \\\Give a descriptive message for your commit.
 
-`git push origin main` \\push your code to the main branch of your remote repo named origin (in this case, you'll already have it set up to be https://github.com/UCCS-CS4300-5300/YOURUCCSUSERNAME_GOES_HERE.git)
+`git push origin main` \\\Push your code to the main branch of your remote repo named origin (in this case, you'll already have it set up to be https://github.com/UCCS-CS4300-5300/YOURUCCSUSERNAME_GOES_HERE.git)
 
 Note that if you've been away for awhile or there's a possibility that code has changed in your remote repository, use `git pull origin main` to pull from the repo. 
 
