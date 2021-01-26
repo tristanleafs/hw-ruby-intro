@@ -27,6 +27,24 @@ To get started, openb a terminal. In the upper left-hand corner, click on the ha
 To work more fully from the terminal, install your editor of choice. For example: 
 `apt-get update && apt-get install vim` or `apt-get update && apt-get install emacs`. To set this editor as default for all applications, `export EDITOR=vi` or `export EDITOR=emacs`. 
 
+## **Commit Work Frequently**
+
+As you edit your work, commit your code to your repository often!! After you have cloned your repository in the step below, you will be able to commit your code from anywhere within the homework directory to your private class repository. 
+
+To commit and push:
+
+`git status` \\Check what files have changed AND are staged for commit. If files are missing that you want staged for commit.
+
+If files need to be added, `git add fileOrFolderName`. Run `git status` to double check. 
+
+`git commit -m "added else condition for if <0"` \\Give a descriptive message for your commit.
+
+`git push origin main` \\push your code to the main branch of your remote repo named origin (in this case, you'll already have it set up to be https://github.com/UCCS-CS4300-5300/YOURUCCSUSERNAME_GOES_HERE.git)
+
+Note that if you've been away for awhile or there's a possibility that code has changed in your remote repository, use `git pull origin main` to pull from the repo. 
+
+When running ANY git command, be sure to read all output for warnings/errors- oftentimes, the output will tell you what you need to do. 
+
 ## SECTION 1: RUBY BASICS
 
 ------------------------------------------------------------------------------------------------------------
@@ -375,7 +393,7 @@ _Note: Github will be covered much more later in class- for now, this is all you
 
 * If you mistype the address, follow the information here to correct the address: https://help.github.com/articles/changing-a-remote-s-url/  
 
-** Note that you can also just type `git commit. `This will open up nano by default ([changeable](http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits)- instructions here). Then it will show you everything that `git status` does and has you input your text that documents your change.  `-m` is a shortcut to bypass the text editor, BUT it also makes you more blind to what will be committed. 
+** Note that you can also just type `git commit. `This will open up an editor if you set one up in the setup instructions. See Setup to install and set an editor. ([changeable](http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits)- instructions here). Then it will show you everything that `git status` does and has you input your text that documents your change.  `-m` is a shortcut to bypass the text editor, BUT it also makes you more blind to what will be committed. 
 
 To make sure that your travis.yml committed properly, check it's output! Go to: https://travis-ci.com/github/UCCS-CS4300-5300/YOURUCCSUSERNAME The execution of your test runs will be shown and will be used in part for grading. 
 
