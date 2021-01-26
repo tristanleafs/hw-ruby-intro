@@ -2,9 +2,9 @@
 
 This homework is made up of two sections comprised of multiple parts and gives some basic practice in Ruby as well as getting you accustomed to making testing a regular part of your workflow.
 
-GET STARTED EARLY it’s a **LONG **assignment. Ask lots of questions along the way, and don’t forget about office hours (posted on the syllabus). Discord will really help you for fast responses! We will be working through this material in lecture, but you can get started by reading Chapter 3 and trying out some of the tutorials listed at the end of this assignment. 
+GET STARTED EARLY it’s a **LONG **assignment. Ask lots of questions along the way!! We will be working through this material in lecture, but you can get started by reading Chapter 3 and trying out some of the tutorials listed at the end of this assignment. 
 
-REMEMBER that each Homework assignment (there are 2) are worth 9% of your overall grade, and the homeworks are here to help you get started, set up your environment, and learn the basic tools that you will need for your project.  Step one: “learn” Ruby- easy right? No.  Jump in as soon as possible and make sure you understand everything you’re doing along the way- ask if you don’t! 
+REMEMBER that each Homework assignment (there are 2) are worth 7% of your overall grade, and the homeworks are here to help you get started, set up your environment, and learn the basic tools that you will need for your project.  Step one: “learn” Ruby- easy right? No.  Jump in as soon as possible and make sure you understand everything you’re doing along the way- ask if you don’t! Use Basecamp to your advantage!
 
 Good luck!
 
@@ -19,12 +19,10 @@ After completing this assignment, you will know how to:
     *   Note that we will talk about other options that can be used instead of Rspec when you begin your projects.
 
 
-## **Setup (about 15 minutes)**
+## **Setup**
 
-We use Docker for this course. This ensures that everyone has the same version of dependencies we have created a Docker image that everyone should use. This becomes important when we move to the group assignment. Follow the instructions at the link provided to get started.
- 
-[https://hub.docker.com/r/tghastings/cloud9-esaas](https://hub.docker.com/r/tghastings/cloud9-esaas) 
-
+There is no setup required. To get to your coding environment, go to {ContainerName}-18-cs4300and5300-1-uccs.devedu.io where ContainerName is your UCCS username (for example: kwalcott-18-cs4300and5300-1-uccs.devedu.io).  You will be asked for a username and password. Username is your UCCS username, and password is your UCCS student number. This will take you to a Cloud 9 environment. 
+To get started, openb a terminal. In the upper left-hand corner, click on the hamburger (the 3 lines), View, Terminal. And you're set!
 
 
 ## SECTION 1: RUBY BASICS
@@ -377,7 +375,7 @@ _Note: Github will be covered much more later in class- for now, this is all you
 
 ** Note that you can also just type `git commit. `This will open up nano by default ([changeable](http://stackoverflow.com/questions/2596805/how-do-i-make-git-use-the-editor-of-my-choice-for-commits)- instructions here). Then it will show you everything that `git status` does and has you input your text that documents your change.  `-m` is a shortcut to bypass the text editor, BUT it also makes you more blind to what will be committed. 
 
-
+To make sure that your travis.yml committed properly, check it's output! Go to: https://travis-ci.com/github/UCCS-CS4300-5300/YOURUCCSUSERNAME The execution of your test runs will be shown and will be used in part for grading. 
 
 2. Submit your code on Canvas
 
