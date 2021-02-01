@@ -21,7 +21,7 @@ After completing this assignment, you will know how to:
 
 ## **Setup**
 
-To get to your coding environment, go to http://{ContainerName}-18-cs4300and5300-1-uccs.devedu.io where ContainerName is your UCCS username (for example: http://kwalcott-18-cs4300and5300-1-uccs.devedu.io).  You will be asked for a username and password. Username is your UCCS username, and password is your UCCS student number. This will take you to a Cloud 9 environment. 
+To get to your coding environment, go to https://{ContainerName}-18-cs4300and5300-1-uccs.devedu.io where ContainerName is your UCCS username (for example: https://kwalcott-18-cs4300and5300-1-uccs.devedu.io).  You will be asked for a username and password. Username is your UCCS username, and password is your UCCS student number. This will take you to a Cloud 9 environment. 
 To get started, openb a terminal. In the upper left-hand corner, click on the hamburger (the 3 lines), View, Terminal. And you're set!
 
 To work more fully from the terminal, install your editor of choice. For example: 
