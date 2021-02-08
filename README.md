@@ -370,7 +370,7 @@ rm -rf .git
 cd /root/environment/homework/hw-ruby-more
 rm -rf .git
 cd /root/environment/homework/
-curl -L https://git.io/JtVZM > .travis.yml
+curl -L https://git.io/JtVnZ > .travis.yml
 ```
 <span style="color:red">UPDATED LINK FOR .travis.yml FILE!!! </span>
 
