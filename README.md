@@ -370,8 +370,9 @@ rm -rf .git
 cd /root/environment/homework/hw-ruby-more
 rm -rf .git
 cd /root/environment/homework/
-curl -L https://git.io/JJAly > .travis.yml
+curl -L https://git.io/JtVZM > .travis.yml
 ```
+
 Note that these two .git folders must be removed because they contain .git associations that are no longer needed (linking you to https://github.com/UCCSCS3300/ repos). Your private git repo is linked as a remote url in the homework folder's .git folder, which you can see by running `git remote -v` while in the homework folder. If you were to leave the .git folders in hw-ruby-intro or hw-ruby-more, the folders would be turned into submodules, which cannot be opened or viewed. 
 
 Make sure you are in `/root/environment/homework/` - you can verify by running `pwd` - then run:
