@@ -4,6 +4,10 @@
 
 def sum arr
   # YOUR CODE HERE
+  sum = 0
+  for i in arr do
+    sum += arr
+  return sum
 end
 
 def max_2_sum arr
